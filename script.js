@@ -8,6 +8,7 @@ const count={};
 			 }
 			   count[char]+1;
 		}
+	for (char of str){
 	if (count[char]===1)
 	{
 		return char;
@@ -15,6 +16,7 @@ const count={};
 	else {
 		return null;
 	}
+	}
 }
-//const input = prompt("Enter a string");
-//alert(firstNonRepeatedChar(input)); 
+const input = prompt("Enter a string");
+alert(firstNonRepeatedChar(input)); 
