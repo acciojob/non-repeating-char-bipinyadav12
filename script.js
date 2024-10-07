@@ -13,10 +13,10 @@ const count={};
 	{
 		return char;
 	}
-	else {
+	}
 		return null;
-	}
-	}
+	
+	
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
