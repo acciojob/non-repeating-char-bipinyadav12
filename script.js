@@ -6,7 +6,7 @@ const count={};
 			 {
 				count[char]+=1;
 			 }
-			   count[char]+1;
+			   count[char]=1;
 		}
 	for (char of str){
 	if (count[char]===1)
